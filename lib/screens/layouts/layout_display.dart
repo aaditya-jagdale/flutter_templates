@@ -1,8 +1,5 @@
-//A layout copied from @shajinnadh1 on X
-//https://x.com/shajinnadh1/status/1831734266218070055
-//Original post font Altone Variable Regular
 
-import 'package:boilerplate/screens/layouts/card_1.dart';
+import 'package:boilerplate/screens/layouts/card1/card_1.dart';
 import 'package:boilerplate/screens/layouts/widget/card.dart';
 import 'package:boilerplate/widgets/colors.dart';
 import 'package:boilerplate/widgets/custom_textstyle.dart';
