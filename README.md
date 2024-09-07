@@ -28,7 +28,7 @@ Welcome to **THE ULTIMATE FLUTTER TEMPLATE REPO**! 💙🚀 If you're looking to
 4. **Share the Love** ❤️: Give this repo a star ⭐ and share it with your fellow Flutter devs!
 
 ### Contribute 🛠
-Got an amazing template? Want to improve an existing one? We welcome all contributions. Check out the [contributing guidelines](link-to-contributing-guide) and get started!
+Got an amazing template? Want to improve an existing one? We welcome all contributions. Check out the [contributing guidelines](https://github.com/aaditya-jagdale/flutter_templates/blob/master/contribution-guideline) and get started!
 
 ---
 
