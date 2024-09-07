@@ -1,3 +1,7 @@
+//A layout copied from @shajinnadh1 on X
+//https://x.com/shajinnadh1/status/1831734266218070055
+//Original post font: Altone Variable Regular
+
 import 'package:boilerplate/widgets/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
