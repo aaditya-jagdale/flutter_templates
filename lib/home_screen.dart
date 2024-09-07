@@ -1,5 +1,6 @@
 import 'package:boilerplate/screens/animations/animations_display.dart';
 import 'package:boilerplate/screens/buttons/buttons_display.dart';
+import 'package:boilerplate/screens/layouts/layout_display.dart';
 import 'package:boilerplate/screens/transition/transition_display.dart';
 import 'package:boilerplate/widgets/home_tile.dart';
 import 'package:flutter/material.dart';
@@ -38,6 +39,11 @@ class _HomeScreenState extends State<HomeScreen> {
               title: "Animations",
               image: "assets/images/animations.png",
               page: AnimationsDisplay(),
+            ),
+            HomeTile(
+              title: "UI Layouts",
+              image: "assets/images/layouts.png",
+              page: LayoutDisplay(),
             ),
           ],
         ),
