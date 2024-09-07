@@ -1,0 +1,46 @@
+# Contribution Guidelines 🛠
+
+Thank you for your interest in contributing to this Flutter Template Repository! 🎉 We're excited to have you on board. To ensure a smooth process and maintain a high quality of templates, please follow these guidelines when submitting your contributions.
+
+---
+
+## General Guidelines 🚀
+- **Keep it Simple**: Minimize the number of files and dependencies. Your contribution should be lightweight and easy to integrate into existing projects.
+- **Clarity**: Make sure your code is well-documented and clean, with meaningful comments where necessary.
+- **Testing**: Ensure that your contributions work without errors. Try to test it on multiple devices and environments if possible.
+
+---
+
+## UI Components & Animations 🎨
+- **Visual Proof**: Always attach a **screenshot** or **screen recording** showing how the UI component or animation works.
+  - You can include these in the pull request description or directly within the repository (under a `screenshots` folder, for example).
+- **Simplicity**: Ensure the UI component or animation is kept minimal and does not introduce unnecessary complexity or dependencies.
+
+---
+
+## Backend Integrations 🌐
+- **Step-by-Step Guide**: For every backend integration (e.g., API, Firebase, Supabase), include a **separate file** (e.g., `integration_guide.md`) that provides **step-by-step instructions** for the setup and integration.
+- **.env Files**: If your integration uses any environment variables:
+  - List all required keys and their purposes in your guide.
+  - Provide a link to documentation or instructions on **how to obtain the necessary keys**.
+  - Ensure these instructions are clear, so others can replicate the setup with ease.
+
+---
+
+## Environment Variables (.env) 🌍
+- If any sensitive keys (API keys, authentication tokens, etc.) are required:
+  - Mention **what keys are needed** in the `integration_guide.md`.
+  - Provide links and instructions on **how to obtain** those keys (e.g., from Firebase, Supabase, etc.).
+  - Ensure no sensitive data is hardcoded or exposed in the files.
+
+---
+
+## Submitting Your Contribution 🔥
+1. **Fork the Repo**: Start by forking this repository.
+2. **Create a New Branch**: Create a new branch for your feature or fix.
+3. **Make Your Changes**: Develop your feature while adhering to the guidelines above.
+4. **Submit a Pull Request**: Once done, submit a pull request with a clear description of your changes.
+
+---
+
+Thank you again for contributing! 🙌 Your efforts help make this repo a valuable resource for Flutter developers everywhere!
