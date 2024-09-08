@@ -1,15 +1,18 @@
+import 'package:boilerplate/screens/layouts/widget/play_video.dart';
 import 'package:boilerplate/widgets/colors.dart';
 import 'package:boilerplate/widgets/transitions.dart';
 import 'package:flutter/material.dart';
 
 class LayoutCard extends StatelessWidget {
   final Widget page;
-  final String image;
+  final String? image;
+  final String? video;
   final String title;
   const LayoutCard({
     super.key,
     required this.page,
-    required this.image,
+    this.image,
+    this.video,
     required this.title,
   });
 
@@ -40,13 +43,10 @@ class LayoutCard extends StatelessWidget {
                 color: CustomColors.black.withOpacity(0.1),
                 borderRadius:
                     const BorderRadius.vertical(top: Radius.circular(12)),
-                image: DecorationImage(
-                  image: NetworkImage(
-                    image,
-                  ),
-                  fit: BoxFit.fitHeight,
-                ),
               ),
+              child: video != null
+                  ? BackgroundVideoPlayer(videoUrl: video!)
+                  : Image.network(image!, fit: BoxFit.fitHeight),
             ),
             Padding(
               padding: const EdgeInsets.all(16),
